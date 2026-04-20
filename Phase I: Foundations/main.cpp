@@ -1,7 +1,7 @@
 /**************************************************************************************************** 
 * Author: Yasin Zahir
 
-*  C++ Fundamentals via a CLI Inventory Tool
+*  C++ partstrack
 
 * 4/19/2026
 *****************************************************************************************************/
@@ -44,10 +44,10 @@ class Part{
 
 int main(){
 
-  cout << "-------------- C++ CLI Inventory Tool  --------------"<< endl;
+  cout << "-------------- C++ partstrack  --------------"<< endl;
   Part growler("752823", "Carrier Based ECM/SEAD", 153, 999999.0 );
   growler.print();
-  cout << "-------------- C++ CLI Inventory Tool  --------------"<< endl;
+  cout << "-------------- C++ partstrack  --------------"<< endl;
 
   return 0;
 }
